@@ -15,11 +15,15 @@ class SocialMetaTagParameters {
   /// The title to use when the Dynamic Link is shared in a social post.
   final String? title;
 
+  //user share
+  final String? uidShare;
+
   Map<String, dynamic> asMap() => <String, dynamic>{
-        'description': description,
-        'imageUrl': imageUrl?.toString(),
-        'title': title,
-      };
+      'description': description,
+      'imageUrl': imageUrl?.toString(),
+      'title': title,
+      'uidShare': uidShare,
+    };
 
   @override
   String toString() {
