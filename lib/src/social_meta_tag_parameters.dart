@@ -4,7 +4,7 @@
 
 /// The Dynamic Link Social Meta Tag parameters.
 class SocialMetaTagParameters {
-  const SocialMetaTagParameters({this.description, this.imageUrl, this.title});
+  const SocialMetaTagParameters({this.description, this.imageUrl, this.title , this.uidShare});
 
   /// The description to use when the Dynamic Link is shared in a social post.
   final String? description;
